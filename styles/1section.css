@@ -1,0 +1,90 @@
+#hero{
+    background: #101C26;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    .left{
+        display: flex;
+        gap: 10px;
+        h1{
+font-weight: 700;
+font-size: 60px;
+line-height: 66px;
+letter-spacing: 1%;
+color: white;
+
+        }
+        p{
+font-weight: 500;
+font-size: 20px;
+line-height: 32px;
+color: white;
+        }
+    }
+    .hero-people{
+        position: relative;
+        width: 680px;
+    }
+    .static{
+        position: absolute;
+        top: 240px;
+        left: -100px;
+    }
+    .butt{
+        display: flex;
+        align-items: center;
+        bu1{
+            background: #F0E714;      
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: black;
+            width: 117px;
+            height: 30px;
+            border: 1px solid #F0E714;
+            border-radius: 40px; 
+        }
+            button{
+                background: #101C26;      
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                color: white;
+            width: 117px;
+            height: 30px;
+            border: 1px solid #101C26;
+            border-radius: 40px; 
+        }
+    }
+    .number{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    .num{
+        margin-bottom: 25px;
+        display: flex;
+        flex-direction: column;
+        h2{
+            color: #ffd400;
+            font-size: 48px;
+            margin: 0;
+        }
+        p{
+            color: white;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+    }
+
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
