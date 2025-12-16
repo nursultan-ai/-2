@@ -7,35 +7,40 @@
     justify-content: space-between;
     padding-top: 20px;
     .header-a{
+        display: flex;
+        gap: 20px;
+        a{
     font-weight: 500;
     font-size: 16px;
     line-height: 100%;
     color: white;
     margin-left: 30px;
-    }
-    .but{
-        ai{
-        background: #101C26;      
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        color: white;
-        width: 117px;
-        height: 50px;
-        border: 1px solid white;
-        border-radius: 40px;
-        }
-        button{
-            background: #F0E714;      
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        color: black;
-        width: 117px;
-        height: 50px;
-        border: 1px solid #F0E714;
-        border-radius: 40px;
         }
     }
-  
+}
+
+.but{
+    display: flex;
+    gap: 10px;
+    .right{
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+border-color: white;
+width: 117px;
+height: 50px;
+border-radius: 100px;
+background: #101C26;
+color: white;
+    }
+    .left{
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+background: #F0E714;
+border-color: #F0E714;
+width: 117px;
+height: 50px;
+border-radius: 100px;
+    }
 }
